@@ -1,0 +1,119 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, intiial-scale=1.0">
+        <title>Ryan Perera</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <!--Quick note on styling - using the BEM model where an underscore (_) refers to a child element of a block
+    and a hyphen (-) refers to a modifier on an element-->
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">My Services</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
+                    <li class="nav_item"><a href="#work" class="nav_link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction-->
+        <section class="intro" id="home">
+            <h1 class="section_title section_title-intro">
+                Hi, I am <strong>Ryan Perera</strong>
+            </h1>
+            <p class="section_subtitle section_subtitle-intro">Product Manager</p>
+            <img src="img/ryan-perera.jpg" alt="picture of Ryan Perera" class="intro_img">
+        </section>
+
+        <!--My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section_title section_title--services">What I Do </h2>
+            
+            <div class="services">
+                <div class="service">
+                    <h3>Product Management</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dicta eius quibusdam officiis nemo veritatis pariatur illo error cum eveniet possimus architecto, suscipit eos ipsa enim commodi animi, corporis non!</p>
+                </div><!--Service-->
+
+                <div class="service">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi provident amet ad. Unde quaerat, necessitatibus vero maxime enim reiciendis dolorem, repellat nostrum sit harum deleniti cum deserunt odit facilis quibusdam.</p>
+                </div><!--Service-->
+
+                <div class="service">
+                    <h3>Service Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto eaque aliquid harum nam perferendis maxime est atque quae culpa similique officia earum quos vel esse, possimus eum error praesentium.</p>
+                </div><!--Service-->
+            </div><!--Services-->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section_title section_title-about">Who I Am</h2>
+            <p class="section_subtitle section_subtitle-about">Space, tech and all things nature</p>
+
+            <div class="about-me_body">
+                <p></p>
+                <p></p>
+            </div>
+
+            <img src="img/el-camino.jpg" alt="Ryan hiking in Spain" class="active-photo">
+        </section>
+
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section_title section_title-work">My Work</h2>
+            <p class="section_subtitle section_subtitle-work"></p>
+
+            <div class="portfolio">
+                <!--Portfolio Item 1-->
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="" class="portfolio_img">
+                </a>
+
+                <!--Portfolio Item 2-->
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="" class="portfolio_img">
+                </a>
+
+                <!--Portfolio Item 3-->
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="" class="portfolio_img">
+                </a>
+
+                <!--Portfolio Item 4-->
+                <a href="#" class="portfolio_item">
+                    <img src="img/" alt="" class="portfolio_img">
+                </a>
+
+            </div>
+        </section>
+        
+        <footer>
+            <a href="mailto:ryan.p207@gmail.com" class="footer_link">ryan.p207@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list_item"><a class="social-list_link" href="#">A</a></li>
+                <li class="social-list_item"><a class="social-list_link" href="#">B</a></li>
+                <li class="social-list_item"><a class="social-list_link" href="#">C</a></li>
+                <li class="social-list_item"><a class="social-list_link" href="#">D</a></li>
+            </ul>
+        </footer>
+
+    </body>
+ </html>
