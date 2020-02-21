@@ -141,14 +141,10 @@ h3 {    font-size: var(--fs-h3);}
     }
 }
 
+/* My Services */
 
-/* Specific Styles */
-.profile_photo {
-    height: 50%;
-    width: 50%;
-}
-
-.active-photo {
-    height: 25%;
-    width: 25%;
+.my-services {
+    background-color: var(--clr-dark); 
+    background-image: url(..img/services-bg.jpg); /* need to add a cover image*/ 
+    background-size: cover;
 }
