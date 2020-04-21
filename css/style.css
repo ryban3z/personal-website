@@ -367,7 +367,8 @@ header {
         grid-area: img; 
         position: relative; 
         z-index: 2; 
-}
+    }
+} 
 
 /* My Work */
 
@@ -446,5 +447,5 @@ header {
 }
 
 .social-list_link {
-    padding: 0.5em; 
+    padding: 0.5em;
 }
